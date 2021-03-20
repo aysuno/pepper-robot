@@ -1,0 +1,31 @@
+topic: ~helloWorld()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+#We can create possible talks with Doğa
+
+#u:(~hello) ~hello!
+
+u:(["hi" "hello" "wassup"]) hey! It's Doga, what is your name?
+u:(["I am" "my name is"] _*)Hi $1 , welcome to the study. How are you today? $name = $1
+u:("great" "fine" "good" "I am good" "not bad") That's good to hear, $name ! 
+u:("eh" "bad" "down") Sorry to hear that. I hope after this study you will be okay, $name .
+
+#TR
+
+#u: (["selam" "naber" "merhaba"]) Merhaba! Hoş geldin! Bugün nasılsın?
+#u: (["iyiyim" "iyi"]) İyi olmana sevindim
+#u: (["kötüyüm" "kötü" "çok iyi değil" "fena değil" "eh işte"]) Neden?  
+#u: (Sen nasılsın) Ben iyiyim, burada seni görünce daha da iyi oldum
+#u: (["ismin" "adın"] ne) Ben Doğa, senin ismin nedir?
+#u: (tanıştığıma memnun oldum) Ben de! Şimdi bir arkadaşım daha olmuş oldu
+
+
