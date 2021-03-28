@@ -16,8 +16,8 @@ language: enu
 
 u:(["hi" "hello" "wassup"]) hey! It's Doga, what is your name?
 u:(["I am" "my name is"] _*)Hi $1 , welcome to the study. How are you today? $name = $1
-u:("great" "fine" "good" "I am good" "not bad") That's good to hear, $name ! 
-u:("eh" "bad" "down") Sorry to hear that. I hope after this study you will be okay, $name .
+u:(["great" "fine" "good" "I am good" "not bad"]) That's good to hear, $name ! 
+u:(["eh" "bad" "down"]) Sorry to hear that. I hope after this study you will be okay, $name .
 
 #TR
 
