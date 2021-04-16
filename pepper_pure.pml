@@ -8,7 +8,10 @@
         <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="helloWorld" src="helloWorld/helloWorld.dlg" />
     </Dialogs>
-    <Resources />
+    <Resources>
+        <File name="pepper_tablet" src="html/pepper_tablet.PNG" />
+        <File name="pepper_smile" src="html/pepper_smile.png" />
+    </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
         <Topic name="helloWorld_enu" src="helloWorld/helloWorld_enu.top" topicName="helloWorld" language="en_US" />
